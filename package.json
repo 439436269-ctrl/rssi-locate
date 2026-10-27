@@ -1,0 +1,39 @@
+{
+  "name": "rssi-locate",
+  "version": "0.1.0",
+  "description": "Locate devices indoors from WiFi/BLE RSSI with a floor plan: wall-aware path loss, MDS initialisation, and constrained stress minimisation (pinned anchors + room bounds).",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "example": "node examples/basic.mjs"
+  },
+  "keywords": [
+    "rssi",
+    "wifi",
+    "ble",
+    "indoor-positioning",
+    "localization",
+    "multilateration",
+    "floorplan",
+    "wall-attenuation",
+    "path-loss",
+    "mds"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/439436269-ctrl/rssi-locate.git"
+  }
+}
